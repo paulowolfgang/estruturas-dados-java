@@ -9,7 +9,7 @@ import java.util.Arrays;
 public class VetorMatriz {
     
     public static void main(String[] args) {
-        // Formas mais usuais de criação de Vetores e Matrizes
+        // Formas mais usuais para criação de Vetores e Matrizes
         int[] vetor01 = new int[3];
 
         int[][] matriz01 = new int[3][3];
