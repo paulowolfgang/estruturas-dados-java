@@ -1,7 +1,7 @@
 package br.dev.paulowolfgang.estruturas_dados;
 
 import java.util.HashSet;
-import java.util.Iterator;
+// import java.util.Iterator;
 
 /**
  * Exemplos de Set
@@ -11,6 +11,7 @@ public class Set {
     public static void main(String[] args) {
         HashSet<Integer> set = new HashSet<>();
         
+        // Adicionando elementos
         set.add(1990);
         set.add(1991);
         set.add(1992);
