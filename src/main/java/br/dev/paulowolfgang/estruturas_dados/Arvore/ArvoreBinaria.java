@@ -87,19 +87,10 @@ public class ArvoreBinaria {
     {
         switch (opcao.toLowerCase())
         {
-            case "pre":
-                raiz.exibirPreOrdem();
-                break;
-
-            case "em":
-                raiz.exibirEmOrdem();
-                break;
-
-            case "pos":
-                raiz.exibirPosOrdem();
-                break;
-            default:
-                throw new IllegalArgumentException("Opção de navegação desconhecida");
+            case "pre" -> raiz.exibirPreOrdem();
+            case "em" -> raiz.exibirEmOrdem();
+            case "pos" -> raiz.exibirPosOrdem();
+            default -> throw new IllegalArgumentException("Opção de navegação desconhecida");
         }
     }
 }

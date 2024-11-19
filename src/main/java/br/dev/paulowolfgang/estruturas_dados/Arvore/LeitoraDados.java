@@ -8,7 +8,7 @@ import java.util.Scanner;
  */
 public final class LeitoraDados {
     
-    private Scanner scanner;
+    private final Scanner scanner;
     
     public LeitoraDados()
     {
